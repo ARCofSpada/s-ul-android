@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Settings
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+    <h2 class="center">Please enter your API key here.</h2>
+    <button ion-item (click)="onLink('https://s-ul.eu/account/configurations')">
+        <ion-icon name="cloud" item-left></ion-icon>
+        Go to s-ul configuration page
+    </button>
+
+    <ion-item>
+        <ion-input type="plaintext" placeholder="API Key"></ion-input>
+    </ion-item>
+</ion-content>
